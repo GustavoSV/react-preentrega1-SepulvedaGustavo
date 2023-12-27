@@ -1,8 +1,8 @@
-import React from 'react'
+import './ItemListContainer.css';
 
 const ItemListContainer = ({saludo}) => {
   return (
-    <h2>{saludo}</h2>
+    <h2 className='saludo'>{saludo}</h2>
   )
 }
 
